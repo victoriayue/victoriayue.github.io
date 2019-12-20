@@ -1,6 +1,7 @@
 
 body {
     background-color:black;
+    margin: 0;
 }
 
 h1 {
@@ -14,4 +15,61 @@ h3 {
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
     color: grey;
+}
+
+/* For Nav bar */
+li {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+a:hover{
+    background-color: #f1d6e7;
+}
+
+nav {
+    width: 100vw;
+    background-color: #fae7f3;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+button {
+    display: none; /* make it invisible */
+}
+
+/* change when the width of screen is less than 500 px*/
+@media only screen and (max-width: 500px) {
+    ul {
+        flex-direction: column;
+    }
+    li {
+        margin:0;
+    }
+    a {
+        display: block;
+    }
+    button{
+        display: block; /* make it visible */
+        
+        padding: 2vw;
+        font-size: 3vh;
+        background-color: #f3c8e3;
+        border: none;
+        
+        outline: none;        
+        cursor: pointer;
+        align-self: flex-start; /* move to left */
+      }
+
 }
