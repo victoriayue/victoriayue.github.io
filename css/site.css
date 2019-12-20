@@ -1,6 +1,5 @@
 
 body {
-    background-color:black;
     margin: 0;
 }
 
@@ -8,13 +7,14 @@ h1 {
     font-size: 100 px;
     text-align: center;
     font-family: 'Muli', sans-serif;
+    color:#313131;
 }
 
 h3 {
     font-size: 20 px;
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
-    color: grey;
+    color:#6d6c6c;
 }
 
 /* For Nav bar */
