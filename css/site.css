@@ -1,9 +1,17 @@
 
 body {
-    background-color:aliceblue;
+    background-color:black;
 }
 
 h1 {
-    font-size: 40 px;
-    font-family: 'Girassol', cursive;
+    font-size: 100 px;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+}
+
+h3 {
+    font-size: 20 px;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: grey;
 }
