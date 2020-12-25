@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/site.css">
+    </head>
+    <body>
+        <!-- A nav bar-->
+        <nav>
+            <ul>
+                <button> 🞬 </button>
+                <li> About Me </li>
+                <li> Resume </li>
+                <li> Contacts </li>
+            </ul>
+
+        </nav>
+        <h1>
+            Yian Yue
+        </h1>
+
+        <h3>
+            A CS senior student.
+        </h3>
+
+    </body>
+    <!-- library link -->
+    <script src="jquery-3.4.0.min.js"></script>
+
+    <!-- script below -->
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("button").click(function(){
+
+            if($("button").text() == "☰"){
+                $("button").text("✖");
+            }else{
+                $("button").text("☰");
+            }
+
+            $("li").toggle("slow");
+        });
+    });
+    /*code here*/
+    </script>
+</html>
