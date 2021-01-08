@@ -1,0 +1,27 @@
+---
+baseURL: "http://example.org/"
+languageCode: en-us
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+params:
+  profileMode:
+    buttons:
+      -
+        name: posts
+        url: "/en/posts/"
+      -
+        name: Github
+        url: "https://github.com/victoriayue"
+    enabled: true
+    imageTitle: ~
+    imageUrl: ~
+    title: ~
+  socialIcons:
+    -
+      name: ""
+      url: ""
+theme: hugo-PaperMod
+title: "Victoria's Homepage"
